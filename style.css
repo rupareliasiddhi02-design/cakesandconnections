@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #6B2D5C;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("cake.png") center/cover;
+  color: white;
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #6B2D5C;
+}
+
+.order-section {
+  background-color: #C96B85;
+  padding: 60px 20px;
+}
+
+.order-section input,
+.order-section select,
+.order-section textarea {
+  border-radius: 10px;
+}
+
+#orderResult .card {
+  background-color: #F8E1E7;
+  border-radius: 12px;
+}
+
+.btn-instagram {
+  background-color: #E1306C;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-instagram:hover {
+  background-color: #c2185b;
+  color: white;
+}
+
+footer {
+  background-color: #6B2D5C;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.menu-card {
+  border-radius: 12px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  display: none;
+}
+
+.menu-list li {
+  padding: 6px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
